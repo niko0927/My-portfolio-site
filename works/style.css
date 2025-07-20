@@ -1,0 +1,326 @@
+@charset "UTF-8";
+* {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #dfe7c6;
+    color: #333;
+    line-height: 1.6;
+    
+  }
+  header {
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: white
+  }
+   
+  header h1 {
+ margin-right: auto;
+    font-size: 3rem;
+    font-family:  "Gravitas One", serif;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 30px;
+      }
+
+    
+  .menu-item {
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+    margin-left: 30px;
+    font-family: "Gravitas One", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      .menu-item:hover{
+        opacity: 0.5;
+       }
+      a{
+        color:black;
+        text-decoration-line: none;
+      }
+     
+      
+      h2{
+      text-align: center;
+        font-family: "Megrim", system-ui;
+        font-size: 130px;
+       font-weight: 800;
+        }
+        .poster-area p{
+          /* right: 40px; */
+          font-size: 80px;
+          font-weight: 30;
+          color: #2d3436;
+          margin-left: 150px;
+          font-family: "Saira", sans-serif;
+          
+        }
+        .poster-area1 {
+          display: flex;
+        justify-content: space-around;
+       
+        }
+     .poster-area1 img{
+      width: 500px;
+     }
+     .poster-area2{
+      display: flex;
+      justify-content: space-around;
+      margin-top: 200px;
+    
+     }
+     .poster-area2 img{
+      width: 500px;
+     }
+     .poster-area3{
+      display: flex;
+      justify-content: space-around;
+      margin-top: 200px;
+    
+     }
+     .poster-area3 img{
+      width: 500px;
+     }
+     .poster-area4{
+      display: flex;
+      justify-content: space-around;
+      margin-top: 200px;
+     align-items: flex-start;
+     }
+     .poster-area4 img{
+      width: 500px;
+     }
+     .Illustration-area p{
+      font-size: 80px;
+      font-weight: 30;
+      color: #2d3436;
+      margin-left: 150px;
+      margin-top: 200px;
+      font-family: "Saira", sans-serif;;
+    }
+     
+     .Illustration-area1{
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-start;
+      /* margin-top: 200px; */
+     
+     }
+     .Illustration-area1 img{
+      width: 500px;
+     }
+     .Illustration-area2{
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-start;
+      margin-top: 200px;
+     }
+     .Illustration-area2 img{
+      width: 700px;
+     }
+     .Illustration-area3{
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-start;
+      margin-top: 200px;
+     }
+     .Illustration-area3 img{
+      width: 500px;
+     }
+     .animation-area p{
+      font-size: 80px;
+      font-weight: 30;
+      color: #2d3436;
+      margin-left: 150px;
+      margin-top: 200px;
+      font-family: "Saira", sans-serif;
+     }
+     h3{
+      font-size: 50px;
+      font-weight: 20;
+      color: #2d3436;
+      margin-left: 150px;
+      font-family: "Zen Maru Gothic", sans-serif;
+     }
+     .animation-area1{
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-start;
+     }
+     .animation-area1 img{
+      width: 500px;
+     }
+     .animation-area2{
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-start;
+      margin-top: 20px;
+     }
+     .animation-area2 img{
+      width: 400px;
+     }
+     
+     .animation-area3{
+      display: flex;
+      justify-content: space-around;
+      margin-top: 30px;
+      align-items: flex-start;
+     }
+     .animation-area3 img{
+      width: 400px;
+      margin-left: 100px;
+      margin-right: 20px;
+     }
+     h4{
+     margin-right: 90px;
+     margin-left: 30px;
+     font-family: "Zen Maru Gothic", sans-serif;
+     margin-bottom: 100px;
+     }
+     .雑誌{
+      flex-flow: column;
+      
+     }
+     h5{
+      font-size: 50px;
+      font-weight: 20;
+      color: #2d3436;
+      margin-left: 150px;
+      font-family: "Zen Maru Gothic", sans-serif;
+     }
+     .animation-area4{
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-start;
+     }
+     .animation-area4 img{
+      width: 300px;
+     }
+     .animation-area5{
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-start;
+     }
+     .animation-area5 img{
+      width: 300px;
+      margin-top: 20px;
+     }
+     h6{
+      font-size: 30px;
+      font-weight: 30;
+      color: #2d3436;
+      margin-left: 100px;
+      font-family: "Zen Maru Gothic", sans-serif;
+     }
+     .animation-area6{
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-start;
+     }
+     .animation-area6 img{
+      width: 500px;
+     }
+     .animation-area7{
+      display: flex;
+    margin-left: 40px;
+      align-items: flex-start;
+      
+     }
+     .animation-area7 img{
+      width: 500px;
+      margin-top: 20px;
+      margin-right: 50px;
+     }
+    .video{
+     margin-left: 40px;
+      margin-top: 20px;
+    }
+    .dessin-area p{
+      font-size: 80px;
+      font-weight: 30;
+      color: #2d3436;
+      margin-left: 150px;
+      margin-top: 200px;
+      font-family: "Saira", sans-serif;
+    }
+    .dessin-area1{
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-start;
+    }
+    .dessin-area1 img{
+      width: 500px;
+    }
+    .dessin-area2{
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-start;
+    }
+    .dessin-area2 img{
+      width: 500px;
+      margin-top: 70px;
+    }
+    .dessin-area3{
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-start;
+    }
+    .dessin-area3 img{
+      width: 500px;
+      margin-top: 70px;
+    }
+    .CG-area p{
+      font-size: 80px;
+      font-weight: 30;
+      color: #2d3436;
+      margin-left: 150px;
+      margin-top: 200px;
+      font-family: "Saira", sans-serif;
+    }
+    .CG-area1{
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-start;
+
+    }
+    .CG-area1 img{
+      width: 700px;
+    }
+    .CG-area2 img{
+      width: 1000px;
+      margin-top: 40px;
+     }    
+     .CG-area2{
+      text-align: center;
+     }
+   
+    .gotop{
+      position: fixed;
+      bottom: 10px;
+      right: 20px;
+    }
+    .gotop a{
+      width: 80px;
+    height: 80px;
+    display: inline-block;
+    background-color: rgb(25, 178, 134);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 80px;
+    color: #2d3436;
+    text-decoration: none;
+    }
+     footer{
+  
+      width: 100%;
+      background-color: #2d3436;
+  color: white;
+ text-align: center;
+margin-bottom: 0px;
+}
