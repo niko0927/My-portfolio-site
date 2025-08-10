@@ -1,0 +1,276 @@
+@charset "UTF-8";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica Neue", "Yu Gothic", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #dfe7c6;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+  height: 100px;
+  background-color: white
+}
+
+header h1 {
+  margin-right: auto;
+  font-size: 3rem;
+  font-family: "Gravitas One", serif;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 30px;
+}
+
+
+.menu-item {
+  list-style: none;
+  display: inline-block;
+  padding: 20px;
+  margin-left: 30px;
+  font-family: "Gravitas One", serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+.menu-item:hover {
+  opacity: 0.5;
+}
+
+.home {
+  background-image: url(img/あちゅうま_page-0001.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+
+}
+
+.home h1 {
+  color: white;
+  text-align: center;
+  font-size: 170px;
+  font-family: "Limelight", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  ;
+  margin: 0%;
+}
+
+.home p {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Megrim", system-ui;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+a {
+  color: black;
+  text-decoration-line: none;
+}
+
+.works-choice1 a img:hover {
+  opacity: 0.7;
+  transition: 0.3s;
+}
+
+.works-choice2 a img:hover {
+  opacity: 0.7;
+  transition: 0.3s;
+}
+
+.works-choice1 {
+  display: flex;
+
+  justify-content: space-around
+}
+
+.works-choice1 p {
+  font-size: 50px;
+  /* margin-left: 100px; */
+  /* font-family :"Limelight", sans-serif; */
+  font-weight: 30;
+  margin-top: 5px;
+}
+
+.poster-choice p {
+  margin-left: 120px;
+}
+
+.Illustration-choice p {
+  margin-left: 100px;
+}
+
+.animation-choice p {
+  margin-left: 110px;
+}
+
+.works-choice1 img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  margin-top: 150px;
+}
+
+.works-choice2 {
+  display: flex;
+  margin-bottom: 200px;
+  justify-content: space-around;
+  top: 0;
+
+}
+
+.works-choice2 img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  margin-top: 10px;
+}
+
+.works-choice2 p {
+  font-size: 50px;
+  margin-top: 5px;
+  font-weight: 30;
+}
+
+.dessin-choice p {
+  margin-left: 110px;
+}
+
+.CG-choice p {
+  margin-left: 130px;
+}
+
+
+/* .home-poster img{
+        width: 600px;
+        height: 600px;
+        margin-left: 200px;
+        object-fit: cover;
+        margin-top: 150px;
+        
+      }
+
+    .home-dessin img{
+      width: 600px;
+        height: 600px;
+        object-fit: cover;
+       margin-left: 900px;
+
+      } */
+
+footer {
+
+  width: 100%;
+  background-color: #2d3436;
+  color: white;
+  text-align: center;
+}
+
+/* モバイル対応する */
+@media screen and (max-width: 480px) {
+
+  /* ヘッダーのフォントサイズをスマホ用に調整 */
+  header h1 {
+    font-size: 1.6rem;
+  }
+
+ 
+
+ 
+  .container {
+    flex-direction: column;
+    margin: 20px auto;
+    padding: 0 10px;
+    gap: 15px;
+  }
+
+  .works-choice1 {
+    flex-direction: column;
+  }
+
+
+  .works-choice1 img {
+    width: 100%;
+    aspect-ratio: 1;
+    height: auto;
+    object-fit: cover;
+    margin-top: 150px;
+  }
+  header {
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    height: auto 
+  
+  }
+   .home h1{
+    font-size: 70px;
+    text-align: center;
+   }
+   .home p{
+    font-size: 40px;
+   }
+   .home {
+    background-image: url(img/あちゅうま_page-0001.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+   }
+   .works-choice2 {
+    flex-direction: column;
+  }
+   .works-choice2 img {
+    width: 100%;
+    aspect-ratio: 1;
+    height: auto;
+    object-fit: cover;
+    margin-top: 150px;
+  }
+  header h1{
+    margin-left: 30px;
+    font-size: 40px;
+   margin-top: 70px;
+  }
+
+  .menu-item {
+    list-style: none;
+    display: inline-block;
+   
+    margin-left: 30px;
+    font-family: "Gravitas One", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  ul{
+    padding: 0;
+   margin-left: 10px;
+  
+  }
+.poster-choice p{
+ margin-left: 140px;
+}
+
+
+ 
+
+  
+}
+  
